@@ -1,0 +1,32 @@
+//      Objects Part 3
+
+//  (Object Destructure)
+const course  = {
+	coursename: "js in hindi",
+	price: "999",
+	courseInstructor: "Hitesh"
+	}
+	
+	const {courseInstructor: instructor} = course
+	
+	console.log(instructor)
+	
+//Json formatter //used in application program Interface (tool for json)
+{
+
+  "name" : "Hitesh Choudhary"
+  
+  
+ // Sometimes Response come in this format 
+ 
+// this is array json file sometimes API response come as this foramt 
+ [
+ {},
+ {},
+ {}
+ 
+ 
+ ]
+ 
+ 
+ 
