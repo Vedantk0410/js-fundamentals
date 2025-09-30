@@ -1,0 +1,63 @@
+//                      Object Part 2
+
+const tinderUser = new Object()  //As a Constructor(singleton)
+
+const tinderUser = {}   //  Non-Singleton Object
+tinderUser.id = "123abd"
+tinderUser.name = "sammy"
+tinderUser.isLoggedin = false 
+console.log(tinderUser);
+
+const regularUser = {
+	email : "some@gmaIL.com",
+	fullname : {
+	   username: {
+		firstname : "hitesh"
+		lastname : "choudhary"
+	   
+	   }
+	}
+	
+}
+console.log(regularUser.fullname.username.firstname);
+
+//some methods in Object
+
+const obj1 = {1: "a",2: "b"}
+const obj2 = {3: "a",4: "b"}
+
+const obj3 = object.assign(obj1,obj2);
+
+console.log(obj3);
+
+
+//  syntax of the objects merge assign();
+
+const target =  {a:1, b:2};
+const source =  {b:4,c:5};
+
+const returnTarget = object.assign(target,sourse)
+console.log(target);
+console.log(returnTarget === target);
+
+// when we are using assign we can pass an empty {} object in the function 
+// as target for not overwriting the value.
+
+// Spread operator 
+
+
+const obj3 =  {...obj1, ...obj2}
+
+console.log(obj3); 
+
+
+//.keys()Returns an array of all the keys (property names) of an object.
+//.values()Returns an array of all the values of an object.
+//.entries()Returns an array of key–value pairs, where each pair is itself an array [key, value].
+
+// .hasOwnProperty('Isloggedin');
+
+
+
+
+
